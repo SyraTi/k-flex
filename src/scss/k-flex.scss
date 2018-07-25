@@ -208,7 +208,7 @@ $gutter: 0;
 }
 
 @for $i from 0 through $columns {
-    #{$prefix}-order-#{$i} {
+    .#{$prefix}-order-#{$i} {
         order: $i;
     }
 }
@@ -223,7 +223,7 @@ $gutter: 0;
 
 @for $i from 0 to $columns {
     @if not ( $i == 0) {
-        #{$prefix}-offset-#{$i} {
+        .#{$prefix}-offset-#{$i} {
             $num: $i / $columns;
             margin-left: if($num == 0, 0, percentage($num));
         }
