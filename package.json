@@ -1,18 +1,17 @@
 {
   "name": "k-flex",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A bootstrap-like flex-grid system without responsive features",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
+  "main": "index.js",
+  "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4"
   },
   "scripts": {
-    "test": "gulp"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,8 @@
     "grid"
   ],
   "author": "GenyaHoshino",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "dist/css"
+  ]
 }

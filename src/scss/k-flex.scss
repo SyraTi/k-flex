@@ -5,6 +5,10 @@ $prefix: 'k';
     display: flex;
 }
 
+.#{$prefix}-d-i-flex {
+    display: flex;
+}
+
 .#{$prefix}-flex-row {
     flex-direction: row !important;
 }
@@ -35,6 +39,10 @@ $prefix: 'k';
 
 .#{$prefix}-flex-fill {
     flex: 1 1 auto !important;
+}
+
+.#{$prefix}-flex-basis-0 {
+    flex-basis: 0 !important;
 }
 
 .#{$prefix}-flex-grow-0 {
